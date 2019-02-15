@@ -1,4 +1,4 @@
-# Centeralized documentation book with MDBook
+# Centeralized documentation book with mdBook
 
 Edit `lib/config.conf`, add your repositories and change documentations directory name
 
