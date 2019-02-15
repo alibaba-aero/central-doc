@@ -11,7 +11,7 @@ do
     NAME=${NAME/.git/}
     REPO_DOCS=$DIR/src/$NAME
 
-    # git clone $repo $NAME
+    git clone $repo $NAME
     rm -rf $REPO_DOCS
     mv $DIR/$NAME/$docs_dir $REPO_DOCS
     rm -rf $NAME
