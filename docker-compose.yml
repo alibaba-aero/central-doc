@@ -1,0 +1,9 @@
+version: '3'
+services:
+  mdbook:
+    build:
+      context: . #current dir as build context
+      args:
+        VERSION: 0.2.1
+    ports:
+      - "9080:80"

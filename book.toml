@@ -1,0 +1,13 @@
+[book]
+title = "Documentation"
+author = "Ahad Birang"
+description = "The example of centeral documentation with mdbook"
+
+[build]
+build-dir = "book"
+create-missing = true
+
+[output.html]
+theme="Rust"
+additional-css = []
+no-section-label = true
